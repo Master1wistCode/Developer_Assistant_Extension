@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Developer Assistant",
+  "description": "An Extension That Helps Any Developers while coding!",
+  "version": "1.0",
+  "author": "Riyasat Hossain",
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "'Give me chance to help you developers!'- Developer Assistant",
+    "default_locale": "en",
+    "default_icon": "icon.png"
+  },
+  "background": {
+      "scripts": ["background.js"]
+  }
+}
